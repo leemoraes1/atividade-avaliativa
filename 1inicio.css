@@ -1,0 +1,71 @@
+body{
+    margin: 0 auto;
+  }
+  h1{
+    text-align: center;
+    background-color: rgb(192, 187, 187);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .card:first-child {
+    margin-left: 0; /* Remove a margem do primeiro cartão para evitar espaçamento extra no lado esquerdo */
+    width: 300;
+    height: 300;
+  }
+  .image-container {
+    display: flex; /* Usar flexbox */
+    justify-content: space-around; /* Distribuir o espaço igualmente ao redor dos itens */
+  
+  }
+  
+  
+  .with-border {
+    margin: 10px; /* Adiciona uma margem de 10 pixels ao redor do ícone */
+  }
+  .icon-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o ícone e o texto */
+    justify-content: space-between; /* Distribui o espaço igualmente entre os ícones */
+    width: 100%; /* Garante que o container ocupe toda a largura */
+    padding: 20px; /* Adiciona margem interna ao contêiner */
+  }
+  
+  .with-margin {
+    margin-right: 10px; /* Adiciona margem à direita do ícone */
+  }
+  
+  .text {
+    font-size: 16px; /* Tamanho da fonte do texto */
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o ícone e o texto */
+    margin-right: 20px; /* Adiciona espaçamento entre os ícones */
+  }
+  /* Estilo para o footer */
+  footer {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center; /* Alinha o conteúdo do footer no centro */
+  }
+  
+  /* Estilo para a linha horizontal */
+  hr {
+    border: none;
+    border-top: 1px solid #ccc; /* Cor da linha */
+    margin: 0 auto; /* Centraliza a linha horizontal */
+    width: 80%; /* Largura da linha */
+  }
+  /* Estilo para a linha horizontal */
+  hr {
+    border: none;
+    border-top: 1px solid #ccc; /* Cor da linha */
+    margin: 0; /* Remove qualquer margem padrão */
+    width: 100%; /* Largura total da página */
+  }
+  
+  
+  
+  
